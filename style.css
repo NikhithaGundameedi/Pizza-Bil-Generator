@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.header{
+    font-size: 1.45rem;
+padding:1.5rem;
+background-color:RGB(236 10 0);
+text-align: center;
+word-spacing: 1rem;
+}
+.home{
+    min-height: 60rem;
+    background-image: url(pizzahalf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.placeorder{
+    color :white;
+    margin-top: 22rem;
+    margin-left:10rem;
+    margin-bottom: 5rem;
+    
+}
+.placeorder p{
+    line-height: 3rem;
+    font-size: 2rem;
+    font-family:cursive ;
+}
+.order-now{
+    padding: 1.25rem;
+    font-weight: 600;
+    font-family:cursive ;
+    margin:2rem;
+    box-shadow: 2px;
+    border: 4px solid red;
+    border-radius: 8px;
+}
+.cards{
+         margin:2rem 18rem ;  
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        gap: 30px;
+        max-width:1300px;
+        padding: 20px;
+}
+.food{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.food img:hover{
+    
+    
+}
+
+.btn{
+    text-align: center;
+    border: 0.5px solid #198754;
+    padding:10px;
+    margin:10px 20px 8px;
+}
+.btn:hover{
+    background-color: #198754;
+}
+.price-tag{
+
+    padding: 0.3rem;
+    color:#ff0000;
+}
+.description p{
+    margin-left:25px;
+}
+.heading{
+    margin: 1rem;
+    margin-left: -100px;
+  
+    text-align: center;
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: 800;
+    font-style: italic;
+    color:RGB(201 107 20);
+
+}
