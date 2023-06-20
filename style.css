@@ -90,6 +90,17 @@ word-spacing: 1rem;
     color:RGB(201 107 20);
 
 }
+.navbar{
+
+    font-size:1.5rem;
+    font-family: cursive;
+    text-decoration: dashed;
+     padding: 1rem;
+    background-color:#f8f9fa;
+    text-align: center;
+    word-spacing: 2rem;
+
+}
 .login{
     
     max-width:400px;
@@ -124,6 +135,7 @@ input{
 .login-button:hover{
 background-color: #198754;
 }
+
 .cart{
 max-width: 400px;
 margin:60px auto;
